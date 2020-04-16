@@ -33,6 +33,8 @@
 
  @media only screen and (max-width: 450px) {
    .checkout-page {
+     margin: none;
+     width: 100%;
       .checkout-header {
         font-size: 0.6em;
       }

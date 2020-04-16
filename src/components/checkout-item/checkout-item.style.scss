@@ -10,6 +10,16 @@
    border-bottom: 1px solid darkgrey;
    padding: 15px 0;
    font-size: 20px;
+
+   .quantity {
+     display: flex;
+     .arrow {
+       cursor: pointer;
+     }
+      .value {
+        padding: 0 10px;
+      }
+   }
  
    .image-container {
     //  width: 20%;
@@ -20,6 +30,9 @@
        height: 100%;
      }
    }
+   .name {
+    padding-left: 30%;
+  }
   //  .price,
   //  .name,
   //  .remove-button,
@@ -29,4 +42,21 @@
    .remove-button {
      cursor: pointer;
    }
+ }
+
+ @media only screen and (max-width: 600px) {
+  .checkout-item {
+    font-size: 0.7em;
+    .quantity {
+      .value {
+        padding: 0 5px;
+      }
+    }
+    .image-container {
+      img {
+        padding: 0 10px;
+      }
+    }
+    
+  }
  }
