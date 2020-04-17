@@ -31,12 +31,15 @@
    }
  }
 
- @media only screen and (max-width: 450px) {
+ @media only screen and (max-width: 568px) {
    .checkout-page {
      margin: none;
      width: 100%;
       .checkout-header {
         font-size: 0.6em;
+        justify-items: start;
+        padding-left: 10px;
+        grid-column-gap: 5px;
       }
    }
  }
