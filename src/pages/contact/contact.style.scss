@@ -1,0 +1,18 @@
+.contact-page {
+   .contact-details {
+      display: grid;
+      grid-template-columns: 1;
+      grid-row-gap: 15px;
+      font-size: 1.2em;
+      margin-top: 5%;
+
+      .detail {
+         display: flex;
+         flex-direction: column;
+
+         .title {
+            font-weight: bold;
+         }
+      }
+   }
+}
