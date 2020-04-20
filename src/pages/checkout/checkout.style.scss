@@ -23,6 +23,18 @@
        }
      }
    }
+
+   .note-message {
+     font-size: 1.5em;
+     text-align: center;
+     margin: 5% 0;
+     color: red;
+   }
+
+    button  {
+     margin-bottom: 3%;
+     margin-left: auto;
+   }
  
    .total {
      margin-top: 30px;
@@ -40,6 +52,9 @@
         justify-items: start;
         padding-left: 10px;
         grid-column-gap: 5px;
+      }
+      .note-message {
+        font-size: 1em;
       }
    }
  }
