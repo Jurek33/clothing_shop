@@ -55,6 +55,7 @@ export const CustomButtonContainer = styled.button`
    text-transform: uppercase;
    font-weight: bolder;
    cursor: pointer;
+   
 
    ${getButtonStyles}
 `;

@@ -1,4 +1,17 @@
 .collections-overview {
    display: flex;
    flex-direction: column;
+   button {
+      position: absolute;
+      top: 75%;
+      opacity: 0.7;
+      display: none;
+   }
+   .collection-item {
+      &:hover {
+         button {
+            display: inline;
+         }
+      }
+   }
 }
