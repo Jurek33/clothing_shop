@@ -7,8 +7,8 @@ import { selectCollectionsForPreview } from '../../redux/shop/shop.selectors';
 
 const CollectionsOverview = ({ collections }) => (
    <div className="collections-overview">
-      { collections.map(({id, ...otherProps}) => (
-			<CollectionPreview key={id} {...otherProps} />
+      { collections.map(({id, ...otherCollectionProps}) => (
+			<CollectionPreview key={id} {...otherCollectionProps} />
 		)) }
    </div>
 );
