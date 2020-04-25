@@ -15,7 +15,10 @@ const Register = ({ registerStart }) => {
 	const {displayName, email, password, confirmPassword} = userCredentials;
 	const handleSubmit = async event => {
 		event.preventDefault();
-		if(password!==confirmPassword) {
+		if(password.length<6) {
+			alert('Password must be at least 6 characters');
+			return;
+		} else if(password!==confirmPassword) {
 			alert('passwords do not match');
 			return;
 		};
